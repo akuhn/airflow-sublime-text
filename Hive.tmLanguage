@@ -117,19 +117,27 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>\{%</string>
+			<string>\{#</string>
 			<key>end</key>
-			<string>%\}</string>
+			<string>#\}</string>
 			<key>name</key>
 			<string>comment.block.airflow</string>
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>\{%</string>
+			<key>end</key>
+			<string>%\}</string>
+			<key>name</key>
+			<string>entity.name.function.airflow</string>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>\{\{</string>
+			<key>contentName</key>
+			<string>entity.name.function.airflow`</string>
 			<key>end</key>
 			<string>\}\}</string>
-			<key>name</key>
-			<string>comment.block.airflow</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -173,10 +181,10 @@
 				<dict>
 					<key>begin</key>
 					<string>\{\{</string>
+					<key>contentName</key>
+					<string>entity.name.function.airflow</string>
 					<key>end</key>
 					<string>\}\}</string>
-					<key>name</key>
-					<string>comment.block.airflow</string>
 				</dict>
 				<dict>
 					<key>match</key>
@@ -198,10 +206,10 @@
 				<dict>
 					<key>begin</key>
 					<string>\{\{</string>
+					<key>contentName</key>
+					<string>entity.name.function.airflow</string>
 					<key>end</key>
 					<string>\}\}</string>
-					<key>name</key>
-					<string>comment.block.airflow</string>
 				</dict>
 				<dict>
 					<key>match</key>

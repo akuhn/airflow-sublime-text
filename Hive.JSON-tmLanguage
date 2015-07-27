@@ -51,14 +51,19 @@
         "name": "comment.block.hive"
     },
     {
+        "begin": "\\{#",
+        "end": "#\\}",
+        "name": "comment.block.airflow"
+    },
+    {
         "begin": "\\{%",
         "end": "%\\}",
-        "name": "comment.block.airflow"
+        "name": "entity.name.function.airflow"
     },
     {
         "begin": "\\{\\{",
         "end": "\\}\\}",
-        "name": "comment.block.airflow"
+        "contentName": "entity.name.function.airflow`"
     },
     {
       "match" : "\\b(?i:tinyint|smallint|int|bigint|float|double|decimal|timestamp|date|boolean|string|varchar|char|binary)\\b",
@@ -88,7 +93,7 @@
         {
             "begin": "\\{\\{",
             "end": "\\}\\}",
-            "name": "comment.block.airflow"
+            "contentName": "entity.name.function.airflow"
         },
         {
           "match": "\\\\.",
@@ -104,7 +109,7 @@
         {
             "begin": "\\{\\{",
             "end": "\\}\\}",
-            "name": "comment.block.airflow"
+            "contentName": "entity.name.function.airflow"
         },
         {
           "match": "\\\\.",
