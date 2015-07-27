@@ -116,6 +116,22 @@
 			<string>comment.block.hive</string>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>\{%</string>
+			<key>end</key>
+			<string>%\}</string>
+			<key>name</key>
+			<string>comment.block.airflow</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\{\{</string>
+			<key>end</key>
+			<string>\}\}</string>
+			<key>name</key>
+			<string>comment.block.airflow</string>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>\b(?i:tinyint|smallint|int|bigint|float|double|decimal|timestamp|date|boolean|string|varchar|char|binary)\b</string>
 			<key>name</key>
@@ -155,6 +171,14 @@
 			<key>patterns</key>
 			<array>
 				<dict>
+					<key>begin</key>
+					<string>\{\{</string>
+					<key>end</key>
+					<string>\}\}</string>
+					<key>name</key>
+					<string>comment.block.airflow</string>
+				</dict>
+				<dict>
 					<key>match</key>
 					<string>\\.</string>
 					<key>name</key>
@@ -171,6 +195,14 @@
 			<string>string.quoted.single.hive</string>
 			<key>patterns</key>
 			<array>
+				<dict>
+					<key>begin</key>
+					<string>\{\{</string>
+					<key>end</key>
+					<string>\}\}</string>
+					<key>name</key>
+					<string>comment.block.airflow</string>
+				</dict>
 				<dict>
 					<key>match</key>
 					<string>\\.</string>

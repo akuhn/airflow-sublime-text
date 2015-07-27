@@ -51,6 +51,16 @@
         "name": "comment.block.hive"
     },
     {
+        "begin": "\\{%",
+        "end": "%\\}",
+        "name": "comment.block.airflow"
+    },
+    {
+        "begin": "\\{\\{",
+        "end": "\\}\\}",
+        "name": "comment.block.airflow"
+    },
+    {
       "match" : "\\b(?i:tinyint|smallint|int|bigint|float|double|decimal|timestamp|date|boolean|string|varchar|char|binary)\\b",
       "name" : "storage.type.hive"
     },
@@ -76,6 +86,11 @@
       "name": "string.quoted.double.hive",
       "patterns": [
         {
+            "begin": "\\{\\{",
+            "end": "\\}\\}",
+            "name": "comment.block.airflow"
+        },
+        {
           "match": "\\\\.",
           "name": "constant.character.escape.hive"
         }
@@ -86,6 +101,11 @@
       "end": "'",
       "name": "string.quoted.single.hive",
       "patterns": [
+        {
+            "begin": "\\{\\{",
+            "end": "\\}\\}",
+            "name": "comment.block.airflow"
+        },
         {
           "match": "\\\\.",
           "name": "constant.character.escape.hive"
