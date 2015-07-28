@@ -9,7 +9,7 @@
 		<string>ql</string>
 	</array>
 	<key>name</key>
-	<string>Hive</string>
+	<string>Airflow</string>
 	<key>patterns</key>
 	<array>
 		<dict>

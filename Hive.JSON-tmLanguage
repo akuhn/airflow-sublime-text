@@ -1,5 +1,5 @@
 {
-  "name": "Hive",
+  "name": "Airflow",
   "scopeName": "source.hive",
   "fileTypes": ["hql","q","ql"],
   "patterns": [
