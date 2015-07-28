@@ -1,24 +1,19 @@
-hive-sublime-text
+airflow-sublime-text
 ==================
 
-[Hive](http://hive.apache.org/) syntax highlighting for Sublime Text (2/3).
+Hive syntax highlighting for Sublime Text — with support for [Airflow](https://github.com/airbnb/airflow) templates!
+
+Forked from [glinmac/hive-sublime-text](https://github.com/glinmac/hive-sublime-text).
 
 # Install
 
-## Package Control
+Locate your `Packages` directory in Sublime Text:
 
-This is the easiest way to install the plugin.
+    Preferences > Browse Packages ...
 
-1. Follow these [instructions](https://sublime.wbond.net/installation) to install [Package Control](http://wbond.net/sublime_packages/package_control).
-2. `Package Control: Install Package`
-3. Look for `Apache Hive` in the packages list
+Clone the repository in this directory:
 
-## Manual - Git
-
-1. Locate your `Packages` directory in Sublime Text (for instance `Preferences > Browse Packages ...`).
-2. Clone the repository in this directory
-
-     `git clone https://github.com/glinmac/hive-sublime-text.git "Apache Hive"`
+    git clone https://github.com/akuhn/airflow-sublime-text.git "Airflow"`
 
 
 # Description
